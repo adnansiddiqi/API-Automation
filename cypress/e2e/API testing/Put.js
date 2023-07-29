@@ -8,7 +8,7 @@ describe('post calls', ()=>{
     let testEmail = ""
     let userid
 
-    it('create single user', ()=>{
+    it('create single user and many users', ()=>{
 
         var pattern = "ABCDEFGHIJKLMNOPabcdefghijklmnop"
         for(var i=0; i<10; i++)
