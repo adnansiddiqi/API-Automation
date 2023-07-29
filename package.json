@@ -1,0 +1,17 @@
+{
+  "name": "api-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "record": "npx cypress run --record --key 63ce8aee-28c1-438c-a29a-c3a27ec0ca2c",
+    "run" : "npx cypress run",
+    "chromeTest" : "npx cypress run --browser chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.0"
+  }
+}
