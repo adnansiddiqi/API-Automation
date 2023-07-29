@@ -1,6 +1,7 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  CYPRESS_NO_COLOR: true,
   projectId: "6h7a9i",
   e2e: {
     baseUrl: 'https://gorest.co.in',
